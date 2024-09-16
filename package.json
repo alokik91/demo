@@ -1,0 +1,12 @@
+{
+  "name": "test-review-app",
+  "version": "1.0.0",
+  "description": "A simple express app for testing code review tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
