@@ -1,11 +1,3 @@
-const express = require('express');
-const app = express();
-const port = 3000;
+const app = require('./server'); // Import the server logic
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
-
-app.listen(port, () => {
-    console.log(`App running on port ${port}`);
-});
+// App logic moved to server.js
